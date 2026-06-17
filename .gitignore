@@ -1,0 +1,53 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+
+# vercel
+.vercel
+
+# Raw / unused stock footage (~3.3GB) — only the live clips below are committed.
+# The rest are candidate/alternate clips from the picking process; keep them local only.
+/public/clips/*
+!/public/clips/seq-1.mp4
+!/public/clips/seq-2.mp4
+!/public/clips/guy-laptop-5977457.mp4
+!/public/clips/screen-data-7055344.mp4
+!/public/clips/seq-4.mp4
+!/public/clips/hero-poster.jpg
+!/public/clips/about-poster.jpg
+!/public/clips/hero-clip.mp4
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
