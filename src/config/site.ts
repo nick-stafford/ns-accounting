@@ -27,7 +27,7 @@ export const site = {
   licensure: "Accounting & financial technology services in Colorado",
   phone: "(303) 881-6022",
   phoneHref: "tel:+13038816022",
-  email: "hello@NSAccounting.com",
+  email: "nicholas.alexander.stafford@gmail.com",
   address: "Denver, Colorado", // ⚠️ full street address optional
 
   // ── Booking (Calendly) ──────────────────────────────────────────────────
