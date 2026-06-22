@@ -112,7 +112,7 @@ export default function Footer() {
         {/* Locations */}
         <div className="border-t border-line py-8">
           <p className="text-xs font-semibold uppercase tracking-[0.18em] text-sand/70">
-            Serving Colorado &amp; beyond
+            Serving the Bay Area &amp; beyond
           </p>
           <div className="mt-3 flex flex-wrap gap-x-2 gap-y-2 text-sm text-sand">
             {site.footer.locations.map((loc, i) => (

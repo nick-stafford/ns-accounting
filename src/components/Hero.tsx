@@ -31,7 +31,7 @@ export default function Hero() {
       {/* Content (centered for balance) */}
       <div className="relative mx-auto w-full max-w-6xl px-5 py-20 sm:px-8">
         <div className="max-w-2xl">
-          {/* Eyebrow — Denver locale, bookends with the credential chips below */}
+          {/* Eyebrow — San Francisco locale, bookends with the credential chips below */}
           <div className="inline-flex items-center gap-2 rounded-full bg-ink/90 px-4 py-1.5 text-xs font-semibold uppercase tracking-wider text-cream shadow-lg shadow-ink/10 backdrop-blur-sm">
             <span className="h-1.5 w-1.5 rounded-full bg-gold" />
             {site.city}, {site.state} · Accountant & Software Engineer

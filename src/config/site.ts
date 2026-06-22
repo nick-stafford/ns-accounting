@@ -18,17 +18,17 @@ export const site = {
   tagline: "Modern accounting for ambitious businesses.",
   // One-liner used in the browser tab + search results
   metaDescription:
-    "A modern Denver accounting firm pairing trusted tax, bookkeeping, and advisory expertise with a tech-driven, paperless client experience. Book a free consultation today.",
+    "A modern San Francisco accounting firm pairing trusted tax, bookkeeping, and advisory expertise with a tech-driven, paperless client experience. Book a free consultation today.",
 
   // ── Location & contact ──────────────────────────────────────────────────
-  city: "Denver",
-  state: "Colorado",
-  serviceArea: "Serving Denver & remote clients nationwide",
-  licensure: "Accounting & financial technology services in Colorado",
+  city: "San Francisco",
+  state: "California",
+  serviceArea: "Serving the Bay Area & remote clients nationwide",
+  licensure: "Accounting & financial technology services in the Bay Area",
   phone: "(303) 881-6022",
   phoneHref: "tel:+13038816022",
   email: "nicholas.alexander.stafford@gmail.com",
-  address: "Denver, Colorado", // ⚠️ full street address optional
+  address: "San Francisco, California", // ⚠️ full street address optional
 
   // ── Booking (Calendly) ──────────────────────────────────────────────────
   // Paste the real Calendly link here. Used by every "Book a consultation" CTA.
@@ -150,7 +150,7 @@ export const site = {
       "Accountant & Software Engineer",
       "Tax, Bookkeeping & Advisory",
       "Automation & FinTech-Driven",
-      "Denver, Colorado",
+      "San Francisco, California",
     ],
   },
 
@@ -179,8 +179,8 @@ export const site = {
   // ── FAQ ──────────────────────────────────────────────────────────────────
   faq: [
     {
-      q: "Do you work with clients outside of Denver?",
-      a: "Yes. While we're proud to be based in Denver, our fully digital workflow means we serve clients across Colorado and nationwide with the same level of service.",
+      q: "Do you work with clients outside of San Francisco?",
+      a: "Yes. While we're proud to be based in San Francisco, our fully digital workflow means we serve clients across California and nationwide with the same level of service.",
     },
     {
       q: "How does pricing work?",
@@ -317,12 +317,12 @@ export const site = {
       },
     ],
     locations: [
-      "Denver",
-      "Boulder",
-      "Aurora",
-      "Fort Collins",
-      "Colorado Springs",
-      "Lakewood",
+      "San Francisco",
+      "Oakland",
+      "Berkeley",
+      "San Jose",
+      "Palo Alto",
+      "Marin County",
       "Remote / Nationwide",
     ],
     socials: [
