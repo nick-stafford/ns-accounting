@@ -89,18 +89,6 @@ export const site = {
         "Fractional CFO guidance",
       ],
     },
-    {
-      id: "automation",
-      title: "Financial Systems & Automation",
-      blurb:
-        "Your finance stack, connected and automated. We integrate your accounting, banking, payments, and payroll tools so data flows on its own and the routine work runs in the background.",
-      points: [
-        "QuickBooks, Xero & app integrations",
-        "Automated invoicing, AP & AR",
-        "Real-time financial dashboards",
-        "Custom workflows & data pipelines",
-      ],
-    },
   ],
 
   // ── The "modern workflow" differentiator (benefit-framed, no tech names) ──

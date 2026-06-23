@@ -2,13 +2,12 @@ import { site } from "@/config/site";
 import Reveal from "./Reveal";
 import SectionHeading from "./SectionHeading";
 import Decor from "./Decor";
-import { IconTax, IconBooks, IconAdvisory, IconAutomation, IconCheck } from "./icons";
+import { IconTax, IconBooks, IconAdvisory, IconCheck } from "./icons";
 
 const iconMap = {
   tax: IconTax,
   bookkeeping: IconBooks,
   advisory: IconAdvisory,
-  automation: IconAutomation,
 } as const;
 
 // Each service gets a distinct complementary accent for mid-page contrast.
@@ -28,11 +27,6 @@ const accents = {
     check: "text-clay-deep",
     edge: "hover:border-clay/50",
   },
-  automation: {
-    icon: "bg-ink/10 text-ink group-hover:bg-ink group-hover:text-cream",
-    check: "text-ink",
-    edge: "hover:border-ink/40",
-  },
 } as const;
 
 export default function Services() {
@@ -48,7 +42,7 @@ export default function Services() {
           intro="Everything you need to keep your finances clean, automated, and working for you, under one roof."
         />
 
-        <div className="mt-14 grid gap-6 sm:grid-cols-2">
+        <div className="mt-14 grid gap-6 lg:grid-cols-3">
           {site.services.map((service, i) => {
             const Icon = iconMap[service.id as keyof typeof iconMap];
             const a = accents[service.id as keyof typeof accents];
