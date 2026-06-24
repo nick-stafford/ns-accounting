@@ -34,7 +34,7 @@ export default function Hero() {
           {/* Eyebrow — San Francisco locale, bookends with the credential chips below */}
           <div className="inline-flex items-center gap-2 rounded-full bg-ink/90 px-4 py-1.5 text-xs font-semibold uppercase tracking-wider text-cream shadow-lg shadow-ink/10 backdrop-blur-sm">
             <span className="h-1.5 w-1.5 rounded-full bg-gold" />
-            {site.city}, {site.state} · Accountant & Software Engineer
+            {site.city}, {site.state}
           </div>
 
           <h1 className="text-halo mt-6 font-display text-[2.7rem] font-bold leading-[1.18] tracking-tight text-ink sm:text-6xl lg:text-[4.3rem]">
