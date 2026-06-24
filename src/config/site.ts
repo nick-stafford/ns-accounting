@@ -13,7 +13,7 @@
 export const site = {
   // ── Brand ────────────────────────────────────────────────────────────────
   firmName: "Scalevault Financial",
-  firmNameShort: "Scalevault",
+  firmNameShort: "Scalevault Financial",
   // Canonical production URL — update when a custom domain is connected.
   url: "https://scalevaultfinancial.com",
   cpaName: "Nick Stafford, Accountant & Software Engineer",
@@ -89,6 +89,42 @@ export const site = {
         "Fractional CFO guidance",
       ],
     },
+    {
+      id: "automation",
+      title: "Financial Systems & Automation",
+      blurb:
+        "Your finance stack, connected and automated. We integrate your accounting, banking, payments, and payroll tools so data flows on its own and the routine work runs in the background.",
+      points: [
+        "QuickBooks, Xero & app integrations",
+        "Bank & payment sync",
+        "Automated invoicing, AP & AR",
+        "Custom workflows & data pipelines",
+      ],
+    },
+    {
+      id: "dashboards",
+      title: "Custom Dashboards & Reporting",
+      blurb:
+        "See your numbers in real time. We build automated dashboards and reports so you always know where the business stands, without waiting on the month-end close.",
+      points: [
+        "Real-time financial dashboards",
+        "Automated monthly reporting",
+        "KPI & cash-flow tracking",
+        "Investor & board-ready reports",
+      ],
+    },
+    {
+      id: "ai",
+      title: "AI Document & Data Automation",
+      blurb:
+        "Put AI to work on the busywork. We automate receipt, invoice, and document processing so financial data is captured, categorized, and reconciled with far less manual effort.",
+      points: [
+        "AI receipt & invoice capture",
+        "Automated transaction categorization",
+        "Reconciliation automation",
+        "Document data extraction",
+      ],
+    },
   ],
 
   // ── The "modern workflow" differentiator (benefit-framed, no tech names) ──
@@ -145,13 +181,13 @@ export const site = {
     heading: "Meet your Accountant",
     // ⚠️ Replace with the real bio
     body: [
-      "After years in accounting, I started this firm with a simple belief: small businesses deserve the same caliber of financial guidance as the big players, delivered in a way that actually fits how they work.",
-      "I combine deep tax and accounting expertise with modern tools that make the whole experience faster, clearer, and a lot less stressful. No jargon, no surprise bills, just a partner genuinely invested in your success.",
+      "I bring together two worlds that rarely meet: accounting and software engineering. With years of experience across accounting and building software for AI companies, I started Scalevault Financial to give growing businesses the same caliber of finance and automation the big players have, delivered in a way that actually fits how they work.",
+      "That means deep tax and accounting expertise paired with modern tools and automation that make the whole experience faster, clearer, and a lot less stressful. No jargon, no surprise bills, just a partner genuinely invested in your success.",
     ],
     credentials: [
       "Accountant & Software Engineer",
       "Tax, Bookkeeping & Advisory",
-      "Automation & FinTech-Driven",
+      "Experience building for AI companies",
       "San Francisco, California",
     ],
   },

@@ -2,12 +2,15 @@ import { site } from "@/config/site";
 import Reveal from "./Reveal";
 import SectionHeading from "./SectionHeading";
 import Decor from "./Decor";
-import { IconTax, IconBooks, IconAdvisory, IconCheck } from "./icons";
+import { IconTax, IconBooks, IconAdvisory, IconAutomation, IconPulse, IconSparkle, IconCheck } from "./icons";
 
 const iconMap = {
   tax: IconTax,
   bookkeeping: IconBooks,
   advisory: IconAdvisory,
+  automation: IconAutomation,
+  dashboards: IconPulse,
+  ai: IconSparkle,
 } as const;
 
 // Each service gets a distinct complementary accent for mid-page contrast.
@@ -26,6 +29,21 @@ const accents = {
     icon: "bg-clay/12 text-clay-deep group-hover:bg-clay group-hover:text-cream",
     check: "text-clay-deep",
     edge: "hover:border-clay/50",
+  },
+  automation: {
+    icon: "bg-teal/12 text-teal-deep group-hover:bg-teal group-hover:text-cream",
+    check: "text-teal-deep",
+    edge: "hover:border-teal/50",
+  },
+  dashboards: {
+    icon: "bg-clay/12 text-clay-deep group-hover:bg-clay group-hover:text-cream",
+    check: "text-clay-deep",
+    edge: "hover:border-clay/50",
+  },
+  ai: {
+    icon: "bg-gold/15 text-gold-deep group-hover:bg-gold group-hover:text-ink",
+    check: "text-gold-deep",
+    edge: "hover:border-gold/50",
   },
 } as const;
 

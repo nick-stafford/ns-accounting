@@ -40,6 +40,18 @@ export function IconAdvisory(props: SVGProps<SVGSVGElement>) {
   );
 }
 
+export function IconAutomation(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg {...base} {...props}>
+      <circle cx="6" cy="6" r="2.3" />
+      <circle cx="18" cy="6" r="2.3" />
+      <circle cx="6" cy="18" r="2.3" />
+      <circle cx="18" cy="18" r="2.3" />
+      <path d="M8.3 6h7.4M6 8.3v7.4M18 8.3v7.4M8.3 18h7.4M8 8l8 8" />
+    </svg>
+  );
+}
+
 export function IconShield(props: SVGProps<SVGSVGElement>) {
   return (
     <svg {...base} {...props}>
