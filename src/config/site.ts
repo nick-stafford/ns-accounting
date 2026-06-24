@@ -178,7 +178,7 @@ export const site = {
 
   // ── About ────────────────────────────────────────────────────────────────
   about: {
-    heading: "Meet your finance partner",
+    heading: "Meet your advisor",
     // ⚠️ Replace with the real bio
     body: [
       "I'm an accountant and software engineer. With years of experience across accounting and building software for AI companies, I started Scalevault Financial to give growing businesses the same caliber of finance and automation the big players have, delivered in a way that actually fits how they work.",
