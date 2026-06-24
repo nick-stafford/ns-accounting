@@ -76,9 +76,12 @@ export default function About() {
             ))}
           </ul>
 
-          <div className="mt-8">
+          <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
             <Button href={site.calendlyUrl} external withArrow>
               Schedule an intro call
+            </Button>
+            <Button href={`mailto:${site.email}`} variant="ghost">
+              Email us
             </Button>
           </div>
         </div>
