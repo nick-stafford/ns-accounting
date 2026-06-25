@@ -22,7 +22,7 @@ export default function About() {
                 <img
                   src={aboutPhoto}
                   alt={site.cpaName}
-                  className="h-full w-full object-cover object-[50%_15%]"
+                  className="h-full w-full object-cover object-center"
                 />
               ) : aboutVideo ? (
                 <video
